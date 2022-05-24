@@ -7,15 +7,15 @@
 
 ## <b><ins> Table of Contents: </ins></b>
 
-- [Questions](#-questions-)
-- [Description](#-description-)
-- [Installation](#-installation-)
-- [Usage](#-usage-)
-- [Technologies and Programs Used](#-technologies-and-programs-used-)
-- [Demonstration](#-demonstration-)
-- [Links](#-links-)
-- [Credits](#-credits-)
-- [License](#-license-)
+- [Questions](#questions)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies and Programs Used](#technologies-and-programs-used)
+- [Demonstration](#demonstration)
+- [Links](#links)
+- [Credits](#credits)
+- [License](#license)
 <br><br>  
 
 ## <b><ins> Questions? </ins></b>
@@ -31,11 +31,11 @@ This is a program constructed with Javascript and utilizes both Node.js and Mong
 
 ## <b><ins> Installation: </ins></b>
         
-The app is deployed on Heroku so it is not needed to install anything. If you would like to run it locally, please download [MongoDB](https://www.mongodb.com/try/download/community) first and make sure the server is running by executing `mongod` in the terminal. Please download all the files included in the repository. Afterwards, please open your terminal into the repository folder and utilize Node.js's npm install feature `npm i` to install all the used packages. Once that is completed run the seed script `npm run seed`.
+The app is deployed on Heroku so it is not needed to install anything. If you would like to run it locally, please download [MongoDB](https://www.mongodb.com/try/download/community) first. Please download all the files included in the repository. Afterwards, please open your terminal into the repository folder and utilize Node.js's npm install feature `npm i` to install all the used packages. Once that is completed run the seed script `npm run seed`.
 
 ## <b><ins> Usage: </ins></b>
         
-To start the program, please open the directory on terminal and type in `npm start`. You will then be able to go to the proper routes to see the JSON information for the API.
+To start the program, please make sure the MongoDB server is running by executing `mongod` in the terminal. Then open the directory on terminal and type in `npm start`. You will then be able to go to the proper routes to see the JSON information for the API.
 <br><br>    
 
 ## <b><ins> Technologies and Programs Used: </ins></b>
@@ -48,7 +48,7 @@ To start the program, please open the directory on terminal and type in `npm sta
 
 - ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
-- ![Mongoose](https://img.shields.io/badge/Mongoose-red?style=for-the-badge)
+- ![Mongoose.js](https://img.shields.io/badge/Mongoose.js-red?style=for-the-badge)
 
 ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 
