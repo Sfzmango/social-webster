@@ -12,12 +12,13 @@ app.use(express.json());
 mongoose.connect('mongodb://127.0.0.1:27017/social-webster', { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
         console.log('Connection to mongoose open!');
+        app.listen(PORT, () => {
+            console.log('Listening on PORT: ' + PORT);
+        });
     })
     .catch((err) => {
         console.log('Error connecting to mongoose...');
         console.error(err);
+        process.exit();
     })
 
-app.listen(PORT, () => {
-    console.log('Listening on PORT: ' + PORT);
-});
